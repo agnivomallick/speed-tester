@@ -1,0 +1,8 @@
+# exclude setup.py (don't want the setup.py in the repository)
+setup.py
+
+# not including jetbrains directory.
+.idea/
+
+# not including pycache
+__pycache__/
