@@ -6,3 +6,6 @@ setup.py
 
 # not including pycache
 __pycache__/
+
+# no need of build dir.
+build/

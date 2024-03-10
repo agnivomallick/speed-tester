@@ -1,5 +1,6 @@
-import time
+import sys
 
+import time
 from PySide6.QtWidgets import *  # import QtWidgets from Pyside6
 from PySide6.QtGui import QIcon  # for icon
 from speedtest_ui import Ui_MainWindow  # main ui
@@ -76,7 +77,7 @@ class MainWindow(QMainWindow):
 
 
 if __name__ == '__main__':
-    app = QApplication()
+    app = QApplication(sys.argv)
     win = MainWindow()
     win.show()
 
